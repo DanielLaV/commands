@@ -6,3 +6,4 @@ rake db:migrate
 
 **GRAPHQL
 rake graphql:dump_schema
+rails generate graphql:object user // generates user_type.rb
